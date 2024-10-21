@@ -59,7 +59,7 @@ body {
   align-items: center;
 }
 
-/* Styles for vertical navigation */
+/* Styles for top left vertical navigation */
 .vertical-nav {
   position: fixed; /* Fix the position on the side */
   top: 1%; /* Start from 20% down the page */
@@ -87,3 +87,56 @@ body {
 .vertical-nav a:hover {
   text-decoration: underline; /* Underline on hover */
 }
+
+
+/* Styles for Useful links nav bar */
+/* Container to hold text and links */
+.container {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space between text and links */
+  padding: 20px; /* Padding around the container */
+}
+
+/* Text container styles */
+.text-container {
+  flex: 1; /* Allow this section to take available space */
+  margin-right: 10px; /* Space between text and link container */
+}
+
+/* Link container styles */
+.link-container {
+  width: 250px; /* Fixed width for the link container */
+  background-color: #f8f9fa; /* Light background for links */
+  padding: 15px; /* Padding around links */
+  border: 1px solid #ccc; /* Border around the link container */
+}
+
+/* Styles for the list */
+.link-container ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styles for individual links */
+.link-container li {
+  margin-bottom: 10px; /* Space between links */
+}
+
+.link-container a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.link-container a:hover {
+  color: #0056b3; /* Darker color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Add some margin to the right for the link container */
+.link-container {
+  margin-left: auto; /* Push the link container to the right */
+}
+
+
