@@ -1,0 +1,33 @@
+
+/* Social Media links styling */
+.social-icons a {
+    margin: 0 10px; /* Spacing between icons */
+    color: #333; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #007bff; /* Color change on hover (Bootstrap primary color) */
+  }
+
+  /* sucide prevention styling */
+  .icon-holder {
+    position: fixed; /* Fix position in the viewport */
+    right: 10px; /* 10px from the right edge */
+    top: 10px; /* 10px from the top edge */
+    text-align: center; /* Center the icon and text */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+    padding: 10px; /* Padding around the icon and text */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+
+  .icon-holder i {
+    font-size: 30px; /* Size of the icon */
+    color: #007bff; /* Icon color */
+  }
+
+  .text-placeholder {
+    margin-top: 5px; /* Space between icon and text */
+    font-size: 16px; /* Text size */
+  }
