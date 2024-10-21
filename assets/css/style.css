@@ -1,3 +1,11 @@
+/* background image styling  */
+body {
+  background-image: url('../images/pexels-padrinan-19670.jpg'); /* Update this with the correct path */ /workspace/Assignment-1-/assets/images/pexels-padrinan-19670.jpg
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
 /* General styling for the footer */
 .footer {
   background-color: #333; /* Dark background */
