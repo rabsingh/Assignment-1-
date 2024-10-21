@@ -1,24 +1,21 @@
-
 /* General styling for the footer */
 .footer {
   background-color: #333; /* Dark background */
   color: white; /* Text color */
   padding: 10px 0; /* Padding for spacing */
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 
 /* Center the social icons */
 .social-icons {
   display: flex;
-  justify-content: space-between; 
+  justify-content: center; /* Center the icons */
   align-items: center;
 }
 
 /* Style for individual social icons */
 .social-icons a {
-  margin: 0 50px; /* Space between icons */
+  margin: 0 20px; /* Space between icons */
   color: white; /* Icon color */
   font-size: 30px; /* Icon size */
   transition: color 0.3s ease;
@@ -27,3 +24,17 @@
 .social-icons a:hover {
   color: #007bff; /* Bootstrap's primary color on hover */
 }
+
+/* Callout styling for the header */
+.callout {
+  background-color: #f8f9fa; /* Light background for the callout */
+  padding: 20px;
+}
+
+/* Flex styling to center the main content */
+.flex-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
