@@ -104,6 +104,7 @@ assess their mental well-being and find trusted resources for further assistance
 
 - The project uses Bootstrap for layout and styling.
 - Font Awesome for social media icons.
+- The background image was sourced from https://www.pexels.com/search/light/
 - Mental health resources and assessment tools provided by the NHS, Elttila, and Clinical Partners.
 
 ---
