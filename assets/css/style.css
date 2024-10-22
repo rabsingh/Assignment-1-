@@ -105,6 +105,9 @@ body {
 
 /* Link container styles */
 .link-container {
+  position: fixed;
+  top: 0px;
+  right: 20px;
   width: 250px; /* Fixed width for the link container */
   background-color: #f8f9fa; /* Light background for links */
   padding: 15px; /* Padding around links */
