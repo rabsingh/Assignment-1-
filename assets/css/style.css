@@ -6,49 +6,49 @@ h1 {
 
 /* background image styling  */
 body {
-  background-image: url('../images/pexels-padrinan-19670.jpg'); /* Update this with the correct path */ /workspace/Assignment-1-/assets/images/pexels-padrinan-19670.jpg
-  background-size: cover; /* Cover the entire background */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-image: url('../images/pexels-padrinan-19670.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 /* General styling for the footer */
 .footer {
-  background-color: #333; /* Dark background */
-  color: white; /* Text color */
-  padding: 10px 0; /* Padding for spacing */
+  background-color: #333; 
+  color: white; 
+  padding: 10px 0; 
   width: 100%;
 }
 
 /* Center the social icons */
 .social-icons {
   display: flex;
-  justify-content: center; /* Center the icons */
+  justify-content: center; 
   align-items: center;
 }
 
 /* Style for individual social icons */
 .social-icons a {
   margin: 0 20px; /* Space between icons */
-  color: white; /* Icon color */
-  font-size: 30px; /* Icon size */
+  color: white; 
+  font-size: 30px; 
   transition: color 0.3s ease;
 }
 
 /* Scale effect on hover */
 .social-icons a:hover,
 .social-icons a:focus {
-    transform: scale(1.1); /* Scale to 110% */
-    transition: transform 0.3s ease; /* Smooth transition */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Bootstrap's primary color on hover */
+  color: #007bff; 
 }
 
 /* Callout styling for the header */
 .callout {
-  background-color: #f8f9fa; /* Light background for the callout */
+  background-color: #f8f9fa; 
   padding: 20px;
 }
 
@@ -61,46 +61,46 @@ body {
 
 /* Styles for top left vertical navigation */
 .vertical-nav {
-  position: fixed; /* Fix the position on the side */
-  top: 1%; /* Start from 20% down the page */
-  left: 5; /* Align to the left */
-  background-color: #333; /* Dark background for nav */
-  padding: 20px; /* Padding around nav items */
+  position: fixed; 
+  top: 1%; 
+  left: 5; 
+  background-color: #333; 
+  padding: 20px; 
 }
 
 .vertical-nav ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
 }
 
 .vertical-nav li {
-  margin-bottom: 20px; /* Space between nav items */
+  margin-bottom: 20px; 
 }
 
 .vertical-nav a {
-  color: white; /* Text color for links */
-  text-decoration: none; /* Remove underline */
-  font-size: 16px; /* Font size for links */
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
 }
 
 .vertical-nav a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; 
 }
 
 
 /* Styles for Useful links nav bar */
-/* Container to hold text and links */
+
 .container {
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: space-between; /* Space between text and links */
-  padding: 20px; /* Padding around the container */
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px;
 }
 
 /* Text container styles */
 .text-container {
-  flex: 1; /* Allow this section to take available space */
-  margin-right: 10px; /* Space between text and link container */
+  flex: 1; /* Allow this section to take available space ?? */
+  margin-right: 10px; 
 }
 
 /* Link container styles */
@@ -108,17 +108,17 @@ body {
   position: fixed;
   top: 0px;
   right: 20px;
-  width: 250px; /* Fixed width for the link container */
-  background-color: #f8f9fa; /* Light background for links */
-  padding: 15px; /* Padding around links */
-  border: 1px solid #ccc; /* Border around the link container */
+  width: 250px; /
+  background-color: #f8f9fa; 
+  padding: 15px; 
+  border: 1px solid #ccc; 
 }
 
 /* Styles for the list */
 .link-container ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
 }
 
 /* Styles for individual links */
@@ -127,33 +127,39 @@ body {
 }
 
 .link-container a {
-  color: #007bff; /* Link color */
-  text-decoration: none; /* Remove underline */
-  transition: color 0.3s; /* Smooth transition for color change */
+  color: #007bff; 
+  text-decoration: none; 
+  transition: color 0.3s; 
 }
 
 .link-container a:hover {
-  color: #0056b3; /* Darker color on hover */
-  text-decoration: underline; /* Underline on hover */
+  color: #0056b3; 
+  text-decoration: underline; 
 }
 
 /* Add some margin to the right for the link container */
 .link-container {
-  margin-left: auto; /* Push the link container to the right */
+  margin-left: auto; 
 }
 
 
 /* logo of self help sites  */
 .logo-img {
-  width: 150px; /* Adjust the width as necessary */
-  height: auto; /* Maintain the aspect ratio */
+  width: 150px; 
+  height: auto; 
   display:block;
   margin: 0 auto 15px auto;
 }
 
 .logo2-img {
-  width: 150px; /* Adjust the width as necessary */
-  height: auto; /* Maintain the aspect ratio */
+  width: 150px; 
+  height: auto; 
   display:block;
   margin: 0 auto 15px auto;
+}
+
+.disclaimer {
+  font-size: small;
+  color: #333; /* Text color */
+  border-top: 1px solid #ccc;
 }
