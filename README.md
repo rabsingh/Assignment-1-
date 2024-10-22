@@ -57,6 +57,7 @@ assess their mental well-being and find trusted resources for further assistance
 - Color Scheme: The website uses calming tones, primarily light greys and blues, to evoke a sense of tranquility and comfort.
 - Fonts: A mix of Courier New for the header (to give a professional, old-school typewriter feel) and sans-serif fonts for the body text for readability.
 
+
 ### Accessibility Considerations
 - **Color Contrast**: Text and background colors meet WCAG guidelines for color contrast, ensuring readability for users with visual impairments.
 - **Alt Text**: All images are equipped with descriptive `alt` tags, ensuring screen reader compatibility for visually impaired users.
