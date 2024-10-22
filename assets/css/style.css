@@ -50,6 +50,7 @@ body {
 .callout {
   background-color: #f8f9fa; 
   padding: 20px;
+  margin-top: 90px;
 }
 
 /* Flex styling to center the main content */
@@ -62,9 +63,9 @@ body {
 /* Styles for top left vertical navigation */
 .vertical-nav {
   position: fixed; 
-  top: 1%; 
-  left: 5; 
-  background-color: #333; 
+  top: 100px; 
+  left: 20px; 
+  background-color: #808080; 
   padding: 20px; 
 }
 
@@ -106,10 +107,10 @@ body {
 /* Link container styles */
 .link-container {
   position: fixed;
-  top: 0px;
+  top: 100px;
   right: 20px;
-  width: 250px; /
-  background-color: #f8f9fa; 
+  width: 250px; 
+  background-color: #d2d2d2; 
   padding: 15px; 
   border: 1px solid #ccc; 
 }
@@ -127,7 +128,7 @@ body {
 }
 
 .link-container a {
-  color: #007bff; 
+  color: #0073ff; 
   text-decoration: none; 
   transition: color 0.3s; 
 }
@@ -136,12 +137,6 @@ body {
   color: #0056b3; 
   text-decoration: underline; 
 }
-
-/* Add some margin to the right for the link container */
-.link-container {
-  margin-left: auto; 
-}
-
 
 /* logo of self help sites  */
 .logo-img {
@@ -163,3 +158,23 @@ body {
   color: #333; /* Text color */
   border-top: 1px solid #ccc;
 }
+
+
+
+
+
+
+/* nav bar fro mobile */
+
+@media (max-width: 768px) {
+  /* Hide the vertical navigation bar */
+  .vertical-nav {
+    display: none; /* Hide on mobile */
+  }
+
+  /* Hide the link container */
+  .link-container {
+    display: none; /* Hide on mobile */
+  }
+}
+
